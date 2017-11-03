@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+    <html>
+
+        <head>
+        	<title>select table de multiplication</title>
+        </head>
+
+        <body>
+            
+            <form method="post" action="index.php">
+                <label for="choix">Merci de selectionner la table que vous voulez consulter :</label></br>
+            	<select name="table"> 
+                    <option value="1">Table de 1</option> 
+                    <option value="2">Table de 2</option> 
+                    <option value="3">Table de 3</option> 
+                    <option value="4">Table de 4</option> 
+                    <option value="5">Table de 5</option> 
+                    <option value="6">Table de 6</option> 
+                    <option value="7">Table de 7</option> 
+                    <option value="8">Table de 8</option> 
+                    <option value="9">Table de 9</option> 
+                    <option value="10">Table de 10</option> 
+                </select>
+                <input type="reset" value="annuler">
+                <input type="submit" value="voir la table">
+            </form>
+
+            <form method="post" action="indexe.php">
+                <label>Merci de selectionner la table que vous voulez consulter :</label></br>
+                <input name="table[]" type="checkbox"  value="1"> table1
+                <input name="table[]" type="checkbox"  value="2"> table2
+                <input name="table[]" type="checkbox"  value="3"> table3
+                <input name="table[]" type="checkbox"  value="4"> table4
+                <input name="table[]" type="checkbox"  value="5"> table5</br>
+                <input name="table[]" type="checkbox"  value="6"> table6
+                <input name="table[]" type="checkbox"  value="7"> table7
+                <input name="table[]" type="checkbox"  value="8"> table8
+                <input name="table[]" type="checkbox"  value="9"> table9
+                <input name="table[]" type="checkbox"  value="10"> table10
+                <input type="reset" value="annuler">
+                <input type="submit" value="voir la table">
+            </form>
+
+                     
+        </body>
+
+    </html> 
